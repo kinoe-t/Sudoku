@@ -181,6 +181,7 @@ int main()
         if (is_moving_action(c))
         {
             action_ok = true;
+            move_cursor(c);
         }
 
         if (is_filling_action(c))
