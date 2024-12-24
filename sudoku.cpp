@@ -35,6 +35,7 @@ void fill_number()
              After fill in the number, check the horizontal line, the
              vertical line and the block the cell is in.
      */
+     cout << "Fill number";
 }
 
 void move_cursor(char c)
